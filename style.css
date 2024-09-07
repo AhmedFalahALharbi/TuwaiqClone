@@ -86,10 +86,10 @@ header {
 .companies {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .img-container {
-    display: flex;
-    width: 90%;
+    width: 70%;
     height: 20vh;
     margin: 10px;
     border-radius: 30px;
@@ -137,5 +137,42 @@ footer {
         width: 20%;
         
     }
-    
+    .cards {
+        display: flex;
+        flex-flow: row; 
+    }
+    .container {
+        display: flex;
+        flex-flow: row; 
+    }
+    .container .card {
+        width: 30vw !important;
+        margin: 10px;
+    }
+    .cards .card {
+        width: 30vw !important;
+    }
+    .companies {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90vw;
+    }
+    .img-container {
+        width: 30vw !important;        
+    }
+    .mail .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        height: 20vh;
+        direction: rtl;
+        align-items: center;
+    }
   }
