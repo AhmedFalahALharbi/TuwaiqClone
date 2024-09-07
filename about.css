@@ -51,6 +51,7 @@ header {
 .location {
     display: flex;
     flex-flow: column;
+    align-items: center;
 
 }
 #offer-container {
