@@ -5,7 +5,6 @@
 }
 
 nav {
-    /* background-color: white; */
     color:#4E3797;
 }
 .nav-link {
@@ -114,6 +113,9 @@ footer {
     height: 40vh;
     object-fit: contain;
 }
+.etihad-container {
+    width: 60vw;
+}
 .contacts {
     display: flex;
     justify-content: space-evenly;
@@ -174,5 +176,14 @@ footer {
         height: 20vh;
         direction: rtl;
         align-items: center;
+    }
+    .contacts {
+        width: 40vw;
+    }
+    .logo-container {
+        width: 20vw;
+    }
+    .etihad-container {
+        width: 20vw;
     }
   }
