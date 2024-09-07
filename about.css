@@ -22,14 +22,7 @@ nav {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 }
-.h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    color: white;
-}
-p {
-    /* color: white; */
-}
+
 header {
     height: 100vh;
 }
@@ -69,48 +62,7 @@ header {
     width: 35%;
 
 }
-.btn-primary {
-    background-color: #54BBBD;
-    width: 70vh;
-    height: 10vh;
-    border-radius: 30px;
-    --bs-btn-hover-bg:#54bbbddb ;
-    border: 0px;
-}
-#third-color-btn {
-    --bs-btn-hover-bg: #54BBBD;
-    color: #54BBBD;
-    border-color: #54BBBD;
-}
-#third-color-btn:hover {
-    color: white;    
-}
-#btn-more {
-    border-radius: 30px;
-    --bs-btn-hover-bg:#4E3797;
-    color: #4E3797;
-    border-color: #4E3797;
-}
-#btn-more:hover {
-    color: white;    
-}
-#btn-activity {
-    background-color: #4E3797;
-     color: white; 
-     border-radius: 30px; 
-     font-size: 90%;
-    
-}
-#btn-activity:hover {
-    background-color: white;  
-    color: #4E3797;
-    border-color: #4E3797;  
-}
-.companies {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+
 .img-container {
     width: 70%;
     height: 20vh;
@@ -174,13 +126,6 @@ footer {
     }
     .cards .card {
         width: 30vw !important;
-    }
-    .companies {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 90vw;
     }
     .img-container {
         width: 30vw !important;        
