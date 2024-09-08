@@ -160,4 +160,8 @@ footer {
     .etihad-container {
         width: 20vw;
     }
+    #offer-container .card {
+        width: 27% !important;
+    
+    }
   }
